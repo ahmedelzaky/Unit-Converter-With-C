@@ -1,0 +1,114 @@
+# depslib dependency file v1.0
+1671050923 source:d:\study\c programming\unit converter\main.c
+	"main.h"
+
+1671051063 d:\study\c programming\unit converter\main.h
+	<stdlib.h>
+	<stdio.h>
+	"Temp.h"
+	"force.h"
+	"velocity.h"
+	"length.h"
+	"pressure.h"
+
+1670959450 d:\study\c programming\unit converter\temp.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+
+1671051858 source:d:\study\c programming\unit converter\temp.c
+	"Temp.h"
+
+1671050597 source:d:\study\c programming\unit converter\force.c
+	"force.h"
+
+1671031736 d:\study\c programming\unit converter\force.h
+	<stdio.h>
+	<stdlib.h>
+
+1671037652 d:\study\c programming\unit converter\velocity.h
+	<stdio.h>
+	<stdlib.h>
+
+1671050607 source:d:\study\c programming\unit converter\velocity.c
+	"velocity.h"
+
+1671038436 d:\study\c programming\unit converter\length.h
+	<stdio.h>
+	<stdlib.h>
+
+1671050583 source:d:\study\c programming\unit converter\lenth.c
+	"length.h"
+
+1671050992 d:\study\c programming\unit converter\pressure.h
+	<stdio.h>
+	<stdlib.h>
+
+1671052371 source:d:\study\c programming\unit converter\pressure.c
+	"pressure.h"
+
+1671050597 source:e:\unit converter\force.c
+	"force.h"
+
+1671031736 e:\unit converter\force.h
+	<stdio.h>
+	<stdlib.h>
+
+1671050583 source:e:\unit converter\lenth.c
+	"length.h"
+
+1671038436 e:\unit converter\length.h
+	<stdio.h>
+	<stdlib.h>
+
+1671112404 source:e:\unit converter\main.c
+	"main.h"
+
+1671110412 e:\unit converter\main.h
+	<stdlib.h>
+	<stdio.h>
+	"Temp.h"
+	"force.h"
+	"velocity.h"
+	"length.h"
+	"pressure.h"
+	"mass.h"
+
+1670959450 e:\unit converter\temp.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+
+1671037652 e:\unit converter\velocity.h
+	<stdio.h>
+	<stdlib.h>
+
+1671050992 e:\unit converter\pressure.h
+	<stdio.h>
+	<stdlib.h>
+
+1671054849 source:e:\unit converter\pressure.c
+	"pressure.h"
+
+1671054534 source:e:\unit converter\temp.c
+	"Temp.h"
+
+1671050607 source:e:\unit converter\velocity.c
+	"velocity.h"
+
+1671110562 source:e:\unit converter\mass.c
+	"mass.h"
+
+1671110331 e:\unit converter\mass.h
+	<stdio.h>
+	<stdlib.h>
+
+1671112336 source:e:\unit converter\angle.c
+	"angle.h"
+
+1671112104 e:\unit converter\angle.h
+	<stdio.h>
+	<stdlib.h>
+
