@@ -4,19 +4,19 @@ int main() {
     char op_num ;
 
     while( 1 ) {
-        printf("\nWelcome to main menu\n");
-        printf("-------------------------\n");
-        printf("Enter The Number of type of\n");
-        printf("Unit you want to convert or ESC to exit \n");
+        printf("\n Welcome to main menu\n");
+        printf(" -------------------------\n");
+        printf(" Enter The Number of type of\n");
+        printf(" Unit you want to convert or ESC to exit \n");
         printf(" ---------------\n");
         printf("| 1 | Temprature|\n");
-        printf("| 2 | Mass      |\n");
-        printf("| 3 | Lenth     |\n");
+        printf("| 2 | pressure  |\n");
+        printf("| 3 | volume    |\n");
         printf("| 4 | Velocity  |\n");
-        printf("| 5 | force     |\n");
-        printf("| 6 | pressure  |\n");
+        printf("| 5 | Lenth     |\n");
+        printf("| 6 | Mass      |\n");
         printf("| 7 | angle     |\n");
-        printf("| 8 | volume    |\n");
+        printf("| 8 | force     |\n");
         printf(" ---------------\n");
         op_num = getche();
         printf("\n \n");
@@ -33,30 +33,37 @@ int main() {
             case '1':
                 temp_converter();
                 break;
+
             case '2':
-                mass_converter();
+                pressure_coverter();
                 break;
+
             case '3':
-                length_converter();
+                volume_coverter();
                 break;
+
             case '4':
                 velocity_converter();
                 break;
 
             case '5':
-                force_coverter();
+                length_converter();
                 break;
+
             case '6':
-                pressure_coverter();
+                mass_converter();
                 break;
+
             case '7':
                 angle_coverter();
                 break;
+
             case '8':
-                volume_coverter();
+                force_coverter();
                 break;
+
             default:
-                printf("  Worng Entery  \n");
+                printf("\n\tWorng Entery  \n");
                 break;
 
             }

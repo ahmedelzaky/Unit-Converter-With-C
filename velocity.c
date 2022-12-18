@@ -70,7 +70,7 @@ void velocity_converter(void) {
             }
 
         } else {
-            printf("\n  Worng Entery  \n");
+                printf("\n\tWorng Entery  \n");
         }
         printf("\n press Esc to back to main menu or any thing to continue\n");
         end_c = getch();

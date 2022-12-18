@@ -24,7 +24,7 @@ int angle_coverter() {
             printf("the angle:%8.6f radian is equal in degree:%8.6f\n",radian,degree);
 
         } else {
-            printf("\n  Worng Entery  \n");
+                printf("\n\tWorng Entery  \n");
         }
         printf("\n  press Esc to back to main menu or any thing to continue\n");
         end_c = getch();
