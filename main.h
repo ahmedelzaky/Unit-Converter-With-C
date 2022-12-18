@@ -2,6 +2,8 @@
 #define MAIN_H_INCLUDED
 #include <stdlib.h>
 #include <stdio.h>
+#include<conio.h>
+
 //---------------------------------------
 #include "Temp.h"
 #include "force.h"

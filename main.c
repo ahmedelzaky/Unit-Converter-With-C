@@ -24,10 +24,11 @@ int main() {
 
         if (op_num == 27) {
 
-            printf("\n program ended \n");
+            printf("\n    program ended   \n");
             return 0;
 
         } else {
+            system("cls");
             switch(op_num) {
             case '1':
                 temp_converter();
@@ -48,10 +49,10 @@ int main() {
             case '6':
                 pressure_coverter();
                 break;
-                case '7':
+            case '7':
                 angle_coverter();
                 break;
-                case '8':
+            case '8':
                 volume_coverter();
                 break;
             default:
@@ -59,6 +60,7 @@ int main() {
                 break;
 
             }
+
         }
 
     }

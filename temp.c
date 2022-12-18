@@ -50,11 +50,13 @@ void temp_converter(void) {
         } else {
             printf("\n  Worng Entery  \n");
         }
-        printf(" press Esc to back to main menu or any thing to continue\n");
+        printf("\n press Esc to back to main menu or any thing to continue\n");
         end_c = getch();
+        system("cls");
         if (end_c == 27) {
             printf("\n\n");
             break;
         }
     }
+    system("cls");
 }

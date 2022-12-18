@@ -22,14 +22,20 @@ int angle_coverter() {
             scanf("%f",&radian);
             degree=radian*(180/3.14159);
             printf("the angle:%8.6f radian is equal in degree:%8.6f\n",radian,degree);
+
+        } else {
             printf("\n  Worng Entery  \n");
         }
         printf("\n  press Esc to back to main menu or any thing to continue\n");
         end_c = getch();
+        system("cls");
+
         if (end_c == 27) {
             printf("\n\n");
             break;
         }
 
     }
+    system("cls");
+
 }
