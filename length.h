@@ -4,5 +4,5 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
+void length_converter(void);
 #endif // LENGTH_H_INCLUDED

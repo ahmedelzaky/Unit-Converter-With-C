@@ -4,5 +4,5 @@
 #include <stdlib.h>
 
 
-
+void pressure_coverter(void);
 #endif // PRESSURE_H_INCLUDED

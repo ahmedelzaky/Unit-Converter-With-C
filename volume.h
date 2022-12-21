@@ -3,5 +3,5 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
+void volume_coverter(void);
 #endif // VOLUME_H_INCLUDED

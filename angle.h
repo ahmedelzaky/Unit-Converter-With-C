@@ -4,5 +4,5 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
+void angle_coverter(void);
 #endif // ANGLE_H_INCLUDED

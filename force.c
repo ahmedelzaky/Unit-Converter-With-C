@@ -3,26 +3,31 @@
 void force_coverter(void) {
     while(1) {
         float force;
-        int unit;
+        short unit;
         char end_c;
-        printf("Enter the unit of the force :\n 1- Newton. \n 2- Pound. \n ");
+        printf ("  Enter the unit of the force : \n");
+        printf ("  ---------------\n");
+        printf ("  | 1 |- Newton  |\n" );
+        printf ("  | 2 |- Pound.  |\n" );
+        printf ("  ---------------\n");
+        fflush(stdin);
         scanf("%d",&unit);
         if(unit==1) {
-            printf("Enter The Force Value :\n");
+            printf("  Enter The Force Value :\n");
             scanf("%f",&force);
             if(force>=0) {
                 force=force/4.448222;
-                printf("The force = %f Ib",force);
+                printf("  The force = %f Ib",force);
             } else {
                 printf("\n  Worng Entery  \n");
             }
 
         } else if(unit==2) {
-            printf("Enter The Force Value :\n");
+            printf("  Enter The Force Value :\n");
             scanf("%f",&force);
             if(force>=0) {
                 force=force*4.448222;
-                printf("The force = %f N\n",force);
+                printf("  The force = %f N\n",force);
             } else {
                 printf("\n  Worng Entery  \n");
             }

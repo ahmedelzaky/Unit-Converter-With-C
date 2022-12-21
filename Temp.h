@@ -4,4 +4,5 @@
 #include <stdio.h>
 
 
+void temp_converter(void);
 #endif // TEMP_H_INCLUDED

@@ -3,4 +3,5 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+void force_coverter(void);
 #endif // FORCE_H_INCLUDED

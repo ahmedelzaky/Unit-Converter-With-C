@@ -5,6 +5,6 @@
 
 
 
-
+void mass_converter(void);
 
 #endif // MASS_H_INCLUDED

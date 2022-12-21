@@ -4,5 +4,5 @@
 #include <stdlib.h>
 
 
-
+void velocity_converter(void);
 #endif // VELOCITY_H_INCLUDED
