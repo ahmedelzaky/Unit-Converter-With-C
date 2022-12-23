@@ -19,6 +19,7 @@ int main() {
         printf("  | 8 | Volume    |\n");
         printf("   ---------------\n");
         fflush(stdin);
+        printf("\n>> ");
         op_num = getche();
         printf("\n \n");
 

@@ -17,10 +17,12 @@ void length_converter(void) {
         printf ("  | 4 | - yard.  |\n" );
         printf ("  ---------------\n");
         fflush(stdin);
+        printf("\n>> ");
         scanf ("%d",&num_of_unit);
 
         if (num_of_unit ==1) {
             printf ("  Enter the lenth \n");
+            printf("\n>> ");
             scanf ("%f",&length);
             if(length>=0) {
                 printf ("  the length in meter =   %.2f m  =  %.2f ft =  %.2f miles =   %.2f yards\n", (length*m),(length/3.048),(length/15.0934),(length/9.144));
@@ -29,6 +31,7 @@ void length_converter(void) {
             }
         } else if (num_of_unit ==2) {
             printf ("Enter the lenth \n");
+            printf("\n>> ");
             scanf ("%f",&length);
             if(length>=0) {
                 printf("  the length in foot =%.2f m =  %.2f ft  =   %.2f miles   =   %.2f yards\n",(length*ft),length,(length*5.28),(length*3));
@@ -37,6 +40,7 @@ void length_converter(void) {
             }
         } else if (num_of_unit==3) {
             printf ("Enter the lenth \n");
+            printf("\n>> ");
             scanf ("%f",&length);
             if(length>=0) {
                 printf("  the length in mile =  %.2f m =  %.2f ft  =  %.2f miles   =   %.2f yards\n",(length*mile),((length*25)/132),length,((length*25)/44));
@@ -46,6 +50,7 @@ void length_converter(void) {
 
         } else if (num_of_unit ==4) {
             printf ("  Enter the lenth \n");
+            printf("\n>> ");
             scanf ("%f",&length);
             if(length>=0) {
                 printf("  the length in yard  =  %.2f m =  %.2f ft =  %.2f miles  = %.2f yards\n",(length*yard),(length/3),(length*1.76),length);
@@ -56,6 +61,7 @@ void length_converter(void) {
             printf("\n  Worng Entery  \n");
         }
         printf("\n press Esc to back to main menu or any thing to continue\n");
+        printf("\n>> ");
         end_c = getch();
         system("cls");
         if (end_c == 27) {

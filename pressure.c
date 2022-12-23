@@ -13,7 +13,9 @@ void pressure_coverter(void) {
         printf("  | T |   Torr   |\n");
         printf("  | P |   PSI    |\n");
         printf("   --------------\n");
+
         fflush(stdin);
+        printf("\n>> ");
         unit_pre = getche();
         unit_pre = toupper(unit_pre);
         printf("\n");
@@ -21,7 +23,9 @@ void pressure_coverter(void) {
 
         if (unit_pre == 'K') {
             printf("\n   Enter the value of pressure:\n");
+            printf("\n>> ");
             scanf("%f", &value_pre);
+
             if(value_pre>=0) {
                 printf("   -----------------------\n");
                 printf("  |%10.4f Kpa Equal   |\n", value_pre);
@@ -39,7 +43,9 @@ void pressure_coverter(void) {
             }
         } else if (unit_pre == 'B') {
             printf("\n   Enter the value of pressure:\n");
+            printf("\n>> ");
             scanf("%f", &value_pre);
+
             if(value_pre>=0) {
                 printf("   -----------------------\n");
                 printf("  |%10.4f Bar Equal   |\n", value_pre);
@@ -58,7 +64,9 @@ void pressure_coverter(void) {
 
         } else if (unit_pre == 'A') {
             printf("\n   Enter the value of pressure:\n");
+            printf("\n>> ");
             scanf("%f", &value_pre);
+
             if(value_pre>=0) {
                 printf("    -----------------------\n");
                 printf("   |%10.4f  Atm Equal  |\n", value_pre);
@@ -77,7 +85,9 @@ void pressure_coverter(void) {
 
         } else if (unit_pre == 'T') {
             printf("\n   Enter the value of pressure:\n");
+            printf("\n>> ");
             scanf("%f", &value_pre);
+
             if(value_pre>=0) {
                 printf("    -----------------------\n");
                 printf("  |%10.4f  Torr Equal |\n", value_pre);
@@ -96,7 +106,9 @@ void pressure_coverter(void) {
 
         } else if (unit_pre == 'P') {
             printf("\n   Enter the value of pressure:\n");
+            printf("\n>> ");
             scanf("%f", &value_pre);
+
             if(value_pre>=0) {
                 printf("   -----------------------\n");
                 printf("  |%10.4f  PSI Equal  |\n", value_pre);
@@ -118,6 +130,7 @@ void pressure_coverter(void) {
         }
 
         printf("\n press Esc to back to main menu or any thing to continue\n\n");
+        printf("\n>> ");
         end_c = getch();
         system("cls");
         if (end_c == 27) {
