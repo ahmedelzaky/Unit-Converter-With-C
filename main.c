@@ -10,13 +10,13 @@ int main() {
         printf("  Unit you want to convert or\n  ESC to exit \n");
         printf("   ---------------\n");
         printf("  | 1 | Temprature|\n");
-        printf("  | 2 | pressure  |\n");
-        printf("  | 3 | Lenth     |\n");
+        printf("  | 2 | Pressure  |\n");
+        printf("  | 3 | Length    |\n");
         printf("  | 4 | Velocity  |\n");
-        printf("  | 5 | force     |\n");
+        printf("  | 5 | Force     |\n");
         printf("  | 6 | Mass      |\n");
-        printf("  | 7 | angle     |\n");
-        printf("  | 8 | volume    |\n");
+        printf("  | 7 | Angle     |\n");
+        printf("  | 8 | Volume    |\n");
         printf("   ---------------\n");
         fflush(stdin);
         op_num = getche();
