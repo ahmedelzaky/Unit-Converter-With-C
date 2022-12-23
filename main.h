@@ -10,6 +10,9 @@
 #include "velocity.h"
 #include "length.h"
 #include "pressure.h"
-#include"mass.h"
+#include "mass.h"
+#include "angle.h"
+#include "volume.h"
+
 
 #endif // MAIN_H_INCLUDED

@@ -7,12 +7,11 @@ void angle_coverter(void)
     float radian, degree;
     while (1)
     {
-        printf("\n    -------------------------\n");
         printf("    Enter the number of the unit \n");
-        printf("    -----------------------\n");
-        printf("    |1|- degree to radian  |\n");
-        printf("    |2|- radian to degree  |\n");
-        printf("    -----------------------\n");
+        printf("    --------------------------\n");
+        printf("    | 1 | - degree to radian  |\n");
+        printf("    | 2 | - radian to degree  |\n");
+        printf("    --------------------------\n");
         fflush(stdin);
         scanf("%d", &theta);
         if (theta == 1)
