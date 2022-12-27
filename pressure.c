@@ -134,7 +134,7 @@ void pressure_coverter(void) {
         end_c = getch();
         system("cls");
         if (end_c == 27) {
-            main();
+            printf("\n\n");
             break;
         }
     }

@@ -59,9 +59,8 @@ void temp_converter(void) {
         end_c = getch();
         system("cls");
         if (end_c == 27) {
-            main();
+            printf("\n\n");
             break;
-
         }
     }
     system("cls");

@@ -38,10 +38,8 @@ void angle_coverter(void) {
         system("cls");
 
         if (end_c == 27) {
-            main();
+            printf("\n\n");
             break;
-
-
         }
     }
     system("cls");
