@@ -1,12 +1,13 @@
 #include "length.h"
 void length_converter(void) {
+    system("cls");
 
     short num_of_unit;
     float length ;
     char end_c;
     float m=1.0;
     float ft =  m  * .3048 ;
-    float mile = m * 1609.34;
+    float mile = m / 1609.34;
     float yard = m /  1.094;
     while(1) {
         printf ("  Enter the number of the unit \n");

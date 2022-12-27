@@ -1,9 +1,10 @@
 #include "main.h"
 
 int main() {
-    char op_num ;
 
-    while( 1 ) {
+    char op_num;
+
+    while (1) {
         printf("\n  Welcome to main menu\n");
         printf("  -------------------------\n");
         printf("  Enter The Number of type of\n");
@@ -18,21 +19,20 @@ int main() {
         printf("  | 7 | Angle     |\n");
         printf("  | 8 | Volume    |\n");
         printf("   ---------------\n");
+
         fflush(stdin);
         printf("\n>> ");
         op_num = getche();
-        printf("\n \n");
-
+        printf("\n");
 
         if (op_num == 27) {
 
-            printf("\n    program ended   \n");
-            printf("\n         ^_^   \n");
-            return 0;
+            printf(" %s", "\n    program ended   \n");
 
+            return 0;
         } else {
-            system("cls");
-            switch(op_num) {
+
+            switch (op_num) {
             case '1':
                 temp_converter();
                 break;
@@ -45,13 +45,11 @@ int main() {
             case '4':
                 velocity_converter();
                 break;
-
             case '5':
                 force_coverter();
                 break;
             case '6':
                 mass_converter();
-
                 break;
             case '7':
                 angle_coverter();
@@ -60,15 +58,20 @@ int main() {
                 volume_coverter();
                 break;
             default:
-                printf("  Worng Entery  \n");
+                printf(" %s", "\n Worng Entery  \n");
+                printf("\n press Esc  to exit or any thing to continue\n\n");
+                printf("\n>> ");
+                op_num = getch();
+
+                if (op_num == 27) {
+                    printf("%s", "\n    program ended   \n");
+                    return 0;
+                }
+
+                system("cls");
                 break;
-
             }
-
         }
-
     }
-
     return 0;
-
 }

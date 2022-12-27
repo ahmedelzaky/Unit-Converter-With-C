@@ -1,5 +1,7 @@
 #include"mass.h"
 void mass_converter(void) {
+    system("cls");
+
     char end_c;
     short number;
     float kg,pound,g,tons;
@@ -85,7 +87,7 @@ void mass_converter(void) {
         end_c = getch();
         system("cls");
         if (end_c == 27) {
-            printf("\n\n");
+            main();
             break;
         }
 

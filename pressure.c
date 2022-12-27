@@ -1,6 +1,8 @@
 #include "pressure.h"
 
 void pressure_coverter(void) {
+    system("cls");
+
     char end_c;
     char unit_pre;
     float value_pre;
@@ -134,7 +136,7 @@ void pressure_coverter(void) {
         end_c = getch();
         system("cls");
         if (end_c == 27) {
-            printf("\n\n");
+            main();
             break;
         }
     }

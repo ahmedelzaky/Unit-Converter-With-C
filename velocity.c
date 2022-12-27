@@ -1,5 +1,7 @@
 #include "velocity.h"
 void velocity_converter(void) {
+    system("cls");
+
     short unit;
     float velocity;
     char end_c;
@@ -80,7 +82,7 @@ void velocity_converter(void) {
         system("cls");
 
         if (end_c == 27) {
-            printf("\n\n");
+            main();
             break;
         }
     }

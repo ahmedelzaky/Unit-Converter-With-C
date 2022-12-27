@@ -1,6 +1,8 @@
 #include "force.h"
 
 void force_coverter(void) {
+    system("cls");
+
     while(1) {
         float force;
         short unit;
@@ -45,7 +47,7 @@ void force_coverter(void) {
         system("cls");
 
         if (end_c == 27) {
-            printf("\n\n");
+            main();
             break;
         }
     }

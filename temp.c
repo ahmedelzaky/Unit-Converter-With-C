@@ -1,6 +1,7 @@
 #include "Temp.h"
 
 void temp_converter(void) {
+    system("cls");
     char end_c;
     char unit_temp;
     float value_temp;
@@ -59,9 +60,10 @@ void temp_converter(void) {
         end_c = getch();
         system("cls");
         if (end_c == 27) {
-            printf("\n\n");
+            main();
             break;
         }
     }
     system("cls");
 }
+

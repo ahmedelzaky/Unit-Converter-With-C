@@ -1,6 +1,7 @@
 #include "angle.h"
 
 void angle_coverter(void) {
+    system("cls");
     char end_c;
     short theta;
     float radian, degree;
@@ -38,7 +39,7 @@ void angle_coverter(void) {
         system("cls");
 
         if (end_c == 27) {
-            printf("\n\n");
+            main();
             break;
         }
     }
