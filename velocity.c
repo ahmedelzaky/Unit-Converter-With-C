@@ -80,8 +80,9 @@ void velocity_converter(void) {
         system("cls");
 
         if (end_c == 27) {
-            printf("\n\n");
+            main();
             break;
+
         }
     }
     system("cls");

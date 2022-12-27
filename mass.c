@@ -85,8 +85,10 @@ void mass_converter(void) {
         end_c = getch();
         system("cls");
         if (end_c == 27) {
-            printf("\n\n");
+            main();
             break;
+
+
         }
 
     }

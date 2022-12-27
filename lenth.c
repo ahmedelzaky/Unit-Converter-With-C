@@ -5,14 +5,14 @@ void length_converter(void) {
     float length ;
     char end_c;
     float m=1.0;
-    float ft = 3.048 * m;
-    float mile = 16.0934*m;
-    float yard = 9.144*m;
+    float ft =  m  * .3048 ;
+    float mile = m * 1609.34;
+    float yard = m /  1.094;
     while(1) {
         printf ("  Enter the number of the unit \n");
         printf ("  ---------------\n");
         printf ("  | 1 | - meter. |\n" );
-        printf ("  | 2 | - foot.  |\n" );
+        printf ("  | 2 | - feet.  |\n" );
         printf ("  | 3 | - mile.  |\n" );
         printf ("  | 4 | - yard.  |\n" );
         printf ("  ---------------\n");
@@ -25,7 +25,7 @@ void length_converter(void) {
             printf("\n>> ");
             scanf ("%f",&length);
             if(length>=0) {
-                printf ("  the length in meter =   %.2f m  =  %.2f ft =  %.2f miles =   %.2f yards\n", (length*m),(length/3.048),(length/15.0934),(length/9.144));
+                printf ("  the length in meter =   %.2f m  =  %.2f ft =  %.2f miles =   %.2f yards\n", (length*m),(length*ft),(length*mile),(length*yard));
             } else {
                 printf("\n  Worng Entery  \n");
             }
@@ -34,8 +34,9 @@ void length_converter(void) {
             printf("\n>> ");
             scanf ("%f",&length);
             if(length>=0) {
-                printf("  the length in foot =%.2f m =  %.2f ft  =   %.2f miles   =   %.2f yards\n",(length*ft),length,(length*5.28),(length*3));
+                printf("  the length in foot =%.2f m =  %.2f ft  =   %.2f miles   =   %.2f yards\n",(length/3.28),length,(length/5279.98),(length/3));
             } else {
+
                 printf("\n  Worng Entery  \n");
             }
         } else if (num_of_unit==3) {
@@ -43,7 +44,7 @@ void length_converter(void) {
             printf("\n>> ");
             scanf ("%f",&length);
             if(length>=0) {
-                printf("  the length in mile =  %.2f m =  %.2f ft  =  %.2f miles   =   %.2f yards\n",(length*mile),((length*25)/132),length,((length*25)/44));
+                printf("  the length in mile =  %.2f m =  %.2f ft  =  %.2f miles   =   %.2f yards\n",++length*1609.342,length* 5280,length,length* 1760);
             } else {
                 printf("\n  Worng Entery  \n");
             }
@@ -53,7 +54,7 @@ void length_converter(void) {
             printf("\n>> ");
             scanf ("%f",&length);
             if(length>=0) {
-                printf("  the length in yard  =  %.2f m =  %.2f ft =  %.2f miles  = %.2f yards\n",(length*yard),(length/3),(length*1.76),length);
+                printf("  the length in yard  =  %.2f m =  %.2f ft =  %.2f miles  = %.2f yards\n",(length*yard),(length * 3),(length / 1760),length);
             } else {
                 printf("\n  Worng Entery  \n");
             }
@@ -65,8 +66,9 @@ void length_converter(void) {
         end_c = getch();
         system("cls");
         if (end_c == 27) {
-            printf("\n\n");
+            main();
             break;
+
         }
 
     }
