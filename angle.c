@@ -1,11 +1,13 @@
 #include "angle.h"
 
-void angle_coverter(void) {
+void angle_coverter(void)
+{
     system("cls");
     char end_c;
     short theta;
     float radian, degree;
-    while (1) {
+    while (1)
+    {
         printf("    Enter the number of the unit \n");
         printf("    --------------------------\n");
         printf("    | 1 | - degree to radian  |\n");
@@ -14,7 +16,8 @@ void angle_coverter(void) {
         fflush(stdin);
         printf("\n>> ");
         scanf("%d", &theta);
-        if (theta == 1) {
+        if (theta == 1)
+        {
             printf("  enter angle with degree\n");
             printf("\n>> ");
             scanf("%f", &degree);
@@ -23,14 +26,17 @@ void angle_coverter(void) {
             printf("  the angle:%8.6f degree is equal in radian:%8.6f\n", degree, radian);
         }
 
-        else if (theta == 2) {
+        else if (theta == 2)
+        {
             printf("  enter angle with radian\n");
             printf("\n>> ");
             scanf("%f", &radian);
             degree = radian * (180 / 3.14159);
             printf("  the angle:%8.6f radian is equal in degree:%8.6f\n", radian, degree);
-        } else {
-            printf("\n  Worng Entery  \n");
+        }
+        else
+        {
+            printf("\n  Wrong Entry  \n");
 
         }
         printf("\n  press Esc to back to main menu or any thing to continue\n");
@@ -38,7 +44,8 @@ void angle_coverter(void) {
         end_c = getch();
         system("cls");
 
-        if (end_c == 27) {
+        if (end_c == 27)
+        {
             main();
             break;
         }

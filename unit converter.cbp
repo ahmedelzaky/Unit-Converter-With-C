@@ -40,10 +40,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="force.h" />
-		<Unit filename="length.h" />
-		<Unit filename="lenth.c">
+		<Unit filename="length.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="length.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

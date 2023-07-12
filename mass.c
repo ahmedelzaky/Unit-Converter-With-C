@@ -8,7 +8,7 @@ void mass_converter(void) {
     while(1) {
         printf ("  choose from this list \n");
         printf ("  --------------------\n");
-        printf ("  | 1 | - kelogrames. |\n" );
+        printf ("  | 1 | - kilograms. |\n" );
         printf ("  | 2 | - grams.      |\n" );
         printf ("  | 3 | - tons.       |\n" );
         printf ("  | 4 | - pound.      |\n" );
@@ -29,10 +29,10 @@ void mass_converter(void) {
                 printf("  %8.6f g\n",g);
                 printf("  %8.6f tons\n",tons);
             } else {
-                printf("\n  Worng Entery  \n");
+                printf("\n  Wrong Entry  \n");
             }
         } else if(number==2) {
-            printf("  enter number of grames\n");
+            printf("  enter number of grams\n");
             printf("\n>> ");
             scanf("%f",&g);
             kg=g/1000;
@@ -60,7 +60,7 @@ void mass_converter(void) {
                 printf("  %8.6f pound\n",pound);
                 printf("  %8.6f kg\n",kg);
             } else {
-                printf("\n  Worng Entery  \n");
+                printf("\n  Wrong Entry  \n");
             }
 
         } else if (number==4) {
@@ -76,11 +76,11 @@ void mass_converter(void) {
                 printf("  %8.6f tons\n",tons);
                 printf("  %8.6f kg\n",kg);
             } else {
-                printf("\n  Worng Entery  \n");
+                printf("\n  Wrong Entry  \n");
             }
 
         } else {
-            printf("\n  Worng Entery  \n");
+            printf("\n  Wrong Entry  \n");
         }
         printf("\n press Esc to back to main menu or any thing to continue\n");
         printf("\n>> ");

@@ -1,12 +1,15 @@
 #include "force.h"
 
-void force_coverter(void) {
+void force_coverter(void)
+{
     system("cls");
 
-    while(1) {
+    while(1)
+    {
         float force;
         short unit;
         char end_c;
+
         printf ("  Enter the unit of the force : \n");
         printf ("  ---------------\n");
         printf ("  | 1 |- Newton  |\n" );
@@ -15,38 +18,50 @@ void force_coverter(void) {
         fflush(stdin);
         printf("\n>> ");
         scanf("%d",&unit);
-        if(unit==1) {
+        if(unit==1)
+        {
             printf("  Enter The Force Value :\n");
             printf("\n>> ");
             scanf("%f",&force);
-            if(force>=0) {
+            if(force>=0)
+            {
                 force=force/4.448222;
                 printf("  The force = %f Ib",force);
-            } else {
-                printf("\n  Worng Entery  \n");
+            }
+            else
+            {
+                printf("\n  Wrong Entry  \n");
             }
 
-        } else if(unit==2) {
+        }
+        else if(unit==2)
+        {
             printf("  Enter The Force Value :\n");
             printf("\n>> ");
             scanf("%f",&force);
-            if(force>=0) {
+            if(force>=0)
+            {
                 force=force*4.448222;
                 printf("  The force = %f N\n",force);
-            } else {
-                printf("\n  Worng Entery  \n");
+            }
+            else
+            {
+                printf("\n  Wrong Entry  \n");
             }
 
 
-        } else {
-            printf("\n  Worng Entery  \n");
+        }
+        else
+        {
+            printf("\n  Wrong Entry  \n");
         }
         printf("\n press Esc to back to main menu or any thing to continue\n");
         printf("\n>> ");
         end_c = getch();
         system("cls");
 
-        if (end_c == 27) {
+        if (end_c == 27)
+        {
             main();
             break;
         }

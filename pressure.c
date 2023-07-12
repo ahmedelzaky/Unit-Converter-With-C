@@ -61,7 +61,7 @@ void pressure_coverter(void) {
                 printf("  |%10.4f   |    PSI  |\n", value_pre * 14.504  );
                 printf("   ----------------------\n");
             } else {
-                printf("\n  Worng Entery  \n");
+                printf("\n  Wrong Entry  \n");
             }
 
         } else if (unit_pre == 'A') {
@@ -82,7 +82,7 @@ void pressure_coverter(void) {
                 printf("   |%10.4f  |    PSI   |\n", value_pre * 14.504  );
                 printf("    ----------------------\n");
             } else {
-                printf("\n  Worng Entery  \n");
+                printf("\n  Wrong Entry  \n");
             }
 
         } else if (unit_pre == 'T') {
@@ -103,7 +103,7 @@ void pressure_coverter(void) {
                 printf("  |%10.4f  |    PSI   |\n", value_pre /  51.715 );
                 printf("   ----------------------\n");
             } else {
-                printf("\n  Worng Entery  \n");
+                printf("\n  Wrong Entry  \n");
             }
 
         } else if (unit_pre == 'P') {
@@ -124,11 +124,11 @@ void pressure_coverter(void) {
                 printf("  |%10.4f  |    Torr  |\n", value_pre *  51.715 );
                 printf("   ----------------------\n");
             } else {
-                printf("\n  Worng Entery  \n");
+                printf("\n  Wrong Entry  \n");
             }
 
         } else {
-            printf("\n  Worng Entery  \n");
+            printf("\n  Wrong Entry  \n");
         }
 
         printf("\n press Esc to back to main menu or any thing to continue\n\n");
