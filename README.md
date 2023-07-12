@@ -4,18 +4,18 @@
 
 ## The units you can convert is:
 
-### 1 - temprature
+### 1 - Temperature
 
-### 2 - pressure
+### 2 - Pressure
 
-### 3 - angle
+### 3 - Angle
 
-### 4 - velocity
+### 4 - Velocity
 
-### 5 - volume
+### 5 - Volume
 
-### 6 - force
+### 6 - Force
 
-### 7 - lenth
+### 7 - Length
 
-### 8 - mass
+### 8 - Mass
